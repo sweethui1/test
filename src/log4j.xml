@@ -1,0 +1,47 @@
+<?xml version="1.0"  encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration>
+    <!--DailyRollingFileAppender 每天产生一个日志文件-->
+    <appender name="myFile" class="org.apache.log4j.DailyRollingFileAppender">
+        <!--文件输出目录-->
+        <param name="File" value="D:/logs/output.log"/>
+        <!--是否选择追加-->
+        <param name="Append" value="true"/>
+        <!--日志输出格式-->
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss,SSS} [%c] [%p] %m%n"/>
+        </layout>
+    </appender>
+
+    <!--&lt;!&ndash;RollingFileAppender 滚动日志文件输出 文件大小到达一定尺寸时重新产生新的文件&ndash;&gt;-->
+    <!--<appender name="dayilyFile" class="org.apache.log4j.RollingFileAppender">-->
+        <!--<param name="File" value="D:/logs/output.log"/>-->
+        <!--<param name="MaxFileSize" value="100MB"/>-->
+        <!--<param name="MaxBackupIndex" value="10"/>-->
+        <!--<param name="append" value="true"/>-->
+        <!--<layout class="org.apache.log4j.PatternLayout">-->
+            <!--<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss,SSS} [%c]-[%p] %m%n"/>-->
+        <!--</layout>-->
+    <!--</appender>-->
+
+    <!--输出到控制台-->
+    <appender name="myConsole" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss,SSS} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+
+    <!--这段配置的就是说把包名为“cn.com.bestpay”且优先级为debug的日志通过dayilyFile这个appender来处理-->
+    <!--<category name="cn.com.bestpay">-->
+        <!--<priority value="debug"/>-->
+        <!--<appender-ref ref="dayilyFile"/>-->
+    <!--</category>-->
+
+    <!--设置日志级别-->
+    <root>
+        <priority value="debug"/>
+        <appender-ref ref="myFile"/>
+        <appender-ref ref="myConsole"/>
+    </root>
+
+</log4j:configuration>
