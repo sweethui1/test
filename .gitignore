@@ -15,4 +15,4 @@ target/
 .classpath
 .project
 .metadata/
-.idea/*
+.idea/
