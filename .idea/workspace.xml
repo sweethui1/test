@@ -74,8 +74,8 @@
       <file leaf-file-name="logback.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47755834" vertical-offset="0" max-vertical-offset="969">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state vertical-scroll-proportion="-0.43267503" vertical-offset="412" max-vertical-offset="969">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -804,12 +804,12 @@
       <workItem from="1485055302387" duration="5569000" />
       <workItem from="1485133712067" duration="17468000" />
       <workItem from="1485219380104" duration="18056000" />
-      <workItem from="1486084906556" duration="2653000" />
+      <workItem from="1486084906556" duration="3053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102559000" />
+    <option name="totallyTimeSpent" value="102959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
@@ -1236,8 +1236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47755834" vertical-offset="0" max-vertical-offset="969">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state vertical-scroll-proportion="-0.43267503" vertical-offset="412" max-vertical-offset="969">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
       </provider>

@@ -16,10 +16,4 @@ target/
 .project
 .metadata/
 .idea/
-logs/
-*.log
-dependency-reduced-pom.xml
-pom.xml.versionsBackup
-*.sonar
-target/
-.idea/
+*
