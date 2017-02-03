@@ -1,4 +1,4 @@
-	*.jar
+*.jar
 *.war
 *~
 *.class
@@ -15,5 +15,4 @@ target/
 .classpath
 .project
 .metadata/
-.idea/
-*
+.idea/*
